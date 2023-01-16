@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "jasmine",
+    "send_inspiration": "node ./src/send_inspiration.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "jasmine": "^4.3.0",
+    "nodemailer": "^6.7.7"
+  }
+}
